@@ -1,3 +1,6 @@
+
+
+/* General body styling */
 body {
   font-family: 'Verdana', sans-serif; /* Font style */
   display: flex;
@@ -6,12 +9,13 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
-  background-color: #2E2E2E; /* Background color */
+  background-color: #bd9b05; /* Background color */
   color: #E0E0E0; /* Text color */
 }
 
+/* Header styling */
 header {
-  background-color: #444444; /* Header background color */
+  background-color: #580505; /* Header background color */
   width: 100%;
   padding: 20px 0;
   text-align: center;
@@ -24,6 +28,7 @@ header h1 {
   color: #FFFFFF; /* Header text color */
 }
 
+/* Gallery styling */
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Grid layout */
@@ -43,6 +48,7 @@ header h1 {
   transform: scale(1.1); /* Scale effect on hover */
 }
 
+/* High-definition image container styling */
 #hd-image-container {
   display: none;
   position: fixed;
